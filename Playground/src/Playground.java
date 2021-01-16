@@ -115,6 +115,10 @@ class PLayground {
         drawLine(coordinates[1][0], coordinates[1][1], coordinates[2][0], coordinates[2][1]);
         drawLine(coordinates[2][0], coordinates[2][1], coordinates[3][0], coordinates[3][1]);
         drawLine(coordinates[3][0], coordinates[3][1], coordinates[0][0], coordinates[0][1]);
+        double sideLength = len;
+        double area = len * len;
+        System.out.println("side length = " + sideLength + ", " + "area = " + area );
+
     }
 
     public static void longestStreak(String s) {
