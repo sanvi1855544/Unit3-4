@@ -139,15 +139,17 @@ class PLayground {
                     break;
                 }
             }
-            //make ssure that max count updates
+            //make sure that max count updates
             //sets maxchar to c
             if (count > maxCount){
                 maxCount = count;
                 maxChar = c;
 
             }
+            i++;
         }
         //printing the max char and max count
+        maxCount = maxCount + 1;
         System.out.println(maxChar + " " + maxCount);
     }
 
